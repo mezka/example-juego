@@ -9,7 +9,7 @@ arma_que_salio = armas[roll]
 print(arma_que_salio)
 
 jugador = {
-    "ataque_jugador": 11,
+    "ataque_jugador": 13,
     "defensa_jugador": 12,
     "has_arma_equipped": False,
     "bonus_atk": 0,
@@ -35,4 +35,6 @@ daño_turno = ataque_jugador_con_bonus - defensa_enemigo
 daño_recibido = ataque_enemigo - defensa_jugador_con_bonus
 
 print(daño_recibido)
+
+
 
