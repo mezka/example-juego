@@ -39,6 +39,12 @@ daño_recibido = ataque_enemigo - defensa_jugador_con_bonus
 
 print(daño_turno)
 
+print("cambios cambios cambios")
+print("cambios cambios cambios")
+print("cambios cambios cambios")
+print("cambios cambios cambios")
+
+
 
 
 
