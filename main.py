@@ -24,6 +24,15 @@ def equipar_arma(arma):
         jugador['has_arma_equipped'] = True
 
 
-ataque_jugador = jugador['ataque_jugador'] + jugador['bonus_atk']
+ataque_jugador_con_bonus = jugador['ataque_jugador'] + jugador['bonus_atk']
+defensa_jugador_con_bonus = jugador['defensa_jugador'] + jugador['bonus_def']
 
-daño_turno = ataque_jugador - defensa_enemigo
+defensa_enemigo = 0
+
+ataque_enemigo = 33
+
+daño_turno = ataque_jugador_con_bonus - defensa_enemigo
+daño_recibido = ataque_enemigo - defensa_jugador_con_bonus
+
+print(daño_recibido)
+
